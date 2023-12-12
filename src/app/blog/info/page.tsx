@@ -41,7 +41,7 @@ export default function Home() {
                   <p className="font-semibold"> Wow,its unbelievable</p>
                   <p className="font-extralight text-xs mt-1.5">Sarah Jane</p>
               </div>
-              <FaHeart  className="text-red-400 text-xl ml-[3px]"/>
+              <FaHeart  className="text-red-400 text-xl ml-[2rem]"/>
           </div>
           <div className="ml-5 mt-7 flex items-center">
             <img className="w-[3.5rem] h-auto rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg4LAqlO0MWJt_12uP6ZCMTv5zqEpWtY9aSw&usqp=CAU" alt="image description"></img>
@@ -49,7 +49,7 @@ export default function Home() {
               <p className="font-semibold"> Awesome tips </p>
               <p className="font-extralight text-xs mt-1.5 ">Amelia Paige</p>
             </div>
-            <CiHeart  className="text-black font-light text-2xl ml-[3px]"/>
+            <CiHeart  className="text-black font-light text-2xl ml-[2rem]"/>
           </div>
           <div className="ml-5 mt-7 flex items-center">
             <img className="w-[3.5rem] h-auto rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC8kiSH5ZSAcVoj3tAQQDoP_ux0sSricMyUg&usqp=CAU" alt="image description"></img>
@@ -57,13 +57,10 @@ export default function Home() {
             <p className="font-semibold"> Oh, man! That was really helpful!!</p>
             <p className="font-extralight text-xs mt-1.5">Benjamin Gray</p>
             </div>
-            <CiHeart  className="text-black font-light text-2xl ml-[3px]"/>
+            <CiHeart  className="text-black font-light text-2xl ml-[2rem]"/>
           </div>
 
       </div>
       
-        
-        
-       
     )
 }

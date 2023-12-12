@@ -6,7 +6,7 @@ import { AiOutlineLike } from "react-icons/ai";
 export default function Home() {
   return (
     <div className="h-screen flex flex-1 flex-col" >
-      <div className="flex flex justify-center pl-3 p-5">
+      <div className="flex flex justify-center m-5">
           <div >
               <p className="text-m font-light text-red-500">Monday 26 May</p><p className="text-4xl font-bold mt-1">Blog</p>
           </div>
@@ -14,12 +14,12 @@ export default function Home() {
               <img className="w-[3.5rem] h-auto rounded-full" src="https://www.vhv.rs/dpng/d/473-4739617_transparent-face-profile-png-round-profile-picture-png.png" alt="image description"></img>
           </div>
       </div>
-      <div >
+      <div className=" ml-4 mr-4">
           <Carosel />
       </div>
       <div className="flex flex-col mt-6">
         <div className="flex items-center">
-          <p className="ml-5 text-2xl font-bold" >Popular</p>
+          <p className="ml-4 text-2xl font-bold" >Popular</p>
           <p className="flex items-center space-x-2 ml-auto text-red-700 pr-5">Show all</p>
         </div>
         <div className="flex justify-between  mt-6 ">
